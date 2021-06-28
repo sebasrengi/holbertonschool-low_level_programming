@@ -1,5 +1,6 @@
 #include "holberton.h"
 #include <stdio.h>
+#include<string.h>
 /**
  * _strlen - give the length of a string
  * @s: the string
@@ -8,6 +9,6 @@
  */
 int _strlen(char *s);
 {
-int len = strlen(s);
+printf"(%d/n", strlen(*s));
 return (0);
 }
