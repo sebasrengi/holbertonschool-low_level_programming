@@ -9,6 +9,7 @@
 int _strlen(char *s)
 {
 	int c;
+	s[10] = "Holberton!";
 
 	for (c = 0; s[c]; s++)
 	{
