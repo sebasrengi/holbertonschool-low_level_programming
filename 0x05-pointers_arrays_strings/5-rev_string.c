@@ -13,6 +13,7 @@ int o = 0;
  while (*(s + o))
 {
 o++;
+i++;
 _putchar(*(s + o));
 o = o + 1;
 i = i - 1;
