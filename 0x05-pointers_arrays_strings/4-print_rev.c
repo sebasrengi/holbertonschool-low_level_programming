@@ -5,14 +5,15 @@
  * @s: The string to be printed.
  */
 void print_rev(char *s)
-{
-while (*s)
-{
+{int i = 0;
+while (*(s+i))
+{  
 *s++;
+i++;
 }
-while (*s)
+while (i)
 {
-_putchar (*s--);
+_putchar (i--);
 }
 _putchar('\n');
 }
