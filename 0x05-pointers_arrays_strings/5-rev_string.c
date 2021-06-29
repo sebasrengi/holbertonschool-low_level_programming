@@ -15,7 +15,7 @@ int o = 0;
 o++;
 i++;
 _putchar(*(s + o));
-o = o + 1;
+o = o - 1;
 i = i - 1;
 }
 while (i >= 0)
