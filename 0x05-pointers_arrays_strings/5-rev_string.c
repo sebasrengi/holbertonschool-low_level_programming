@@ -6,24 +6,21 @@
  *
  * Return: void
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
-  int i = 0;
-while (*(s + i))
+int i = 0;
+int o = 0;
+ while (*(s + o))
 {
-i++;
-_putchar(*(s + i));
-}
-i = 0;
-while (*(s + i))
-{
-i++;
+o++;
+_putchar(*(s + o));
+o = o + 1;
 i = i - 1;
-} 
+}
 while (i >= 0)
 {
 _putchar(*(s + i));
 i--;
-}
-  _putchar('\n');
+    }
+_putchar('\n');
 }
