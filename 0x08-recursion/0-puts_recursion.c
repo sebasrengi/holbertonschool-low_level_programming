@@ -10,9 +10,9 @@ void _puts_recursion(char *s)
 {
 	if (!*s) /* if s points to null char */
 	{
-		_putchar('\n');
+		puts('\n');
 		return;
 	}
-	_putchar(*s);
+	puts(*s);
 	_puts_recursion(s + 1);
 }
