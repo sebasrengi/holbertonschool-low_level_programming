@@ -18,12 +18,12 @@ if (s2 == NULL)
 {
 s2 = "";
 }
-while(s1[i])
+while (s1[i])
 i++;
-while(s2[j])
+while (s2[j])
 j++;
 suma = i + j;
-array = malloc((sizeof(char) * suma) + 1);
+array = malloc((sizeof(char) * suma) +1);
 if (array == NULL)
 return (NULL);
 for (; cont < suma; cont++)
