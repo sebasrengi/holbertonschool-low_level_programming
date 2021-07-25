@@ -1,6 +1,5 @@
 #ifndef VARIADIC_FUNCTIONS_H
 #define VARIADIC_FUNCTIONS_H
-
 /*
  * File: variadic_functions.h
  * Desc: Header file containing prototypes for all functions
