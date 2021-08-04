@@ -6,17 +6,17 @@
  *
  * Return: number of elements in the list
  */
-
 size_t print_listint(const listint_t *h)
 {
-int i;
-if (h == NULL)
-return (0);
-while (h)
-{
-printf("%d\n", h->n);
-h = h->next;
-i++;
-}
-return (i);
+	int iter = 0;
+
+	if (h == NULL)
+		return (0);
+	while (h)
+	{
+		printf("%d\n", h->n);
+		h = h->next;
+		iter++;
+	}
+	return (iter);
 }
